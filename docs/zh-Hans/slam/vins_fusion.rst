@@ -9,7 +9,7 @@
 
 1. 下载 `MYNT-EYE-D-SDK <https://github.com/slightech/MYNT-EYE-D-SDK.git>`_ 及 :ref:`ros_install`。
 2. 按照一般步骤安装 VINS-Fusion 。
-3. 运行 mynteye_wrapper_dr 和 VINS-Fusion 。
+3. 运行 mynteye_wrapper_d 和 VINS-Fusion 。
 
 
 准备步骤
