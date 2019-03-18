@@ -7,14 +7,16 @@ MYNT® EYE D SDK
 ===============
 
 .. toctree::
-   :caption: API 参考
+   :titlesonly:
    :maxdepth: 2
 
-   api/camera
-   api/device
-   api/enums
-   api/types
-   api/utils
+   zh-Hans/product/contents
+   zh-Hans/installation/contents
+   zh-Hans/samples/contents
+   zh-Hans/tools/contents
+   zh-Hans/projects/contents
+   zh-Hans/slam/contents
+   api/contents
 
 ..
   Indices and tables
