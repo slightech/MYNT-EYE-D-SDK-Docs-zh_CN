@@ -101,6 +101,12 @@
    // Infrared intensity: 0(default), [0,10]
    params.ir_intensity = 4;
 
+.. note::
+
+  启用此功能后，你可以看到ir光斑:
+
+  .. image:: ../../static/images/ir.png
+
 启用IR Depth Only
 -----------------
 
