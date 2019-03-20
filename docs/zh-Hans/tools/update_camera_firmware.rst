@@ -1,7 +1,3 @@
-.. role:: raw-latex(raw)
-   :format: latex
-..
-
 .. _update_camera_firmware:
 
 升级相机固件
@@ -43,13 +39,4 @@ Drive <https://drive.google.com/open?id=1gAbTf6W10a8iwT7L9TceMVgxQCWKnEsx>`__,
 
 参考图示使用工具:
 
-.. figure:: ../../static/images/update_camera_tool.png
-   :alt: update tool
-
-
-.. raw:: latex
-
-   \latexonly
-
-:raw-latex:`\includegraphics[width=1\textwidth]{update_camera_tool.png}`
-:raw-latex:`\endlatexonly`
+.. image:: ../../static/images/update_camera_tool.png

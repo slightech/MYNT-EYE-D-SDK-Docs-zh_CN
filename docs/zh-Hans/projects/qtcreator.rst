@@ -1,7 +1,3 @@
-.. role:: raw-latex(raw)
-   :format: latex
-..
-
 .. _qtcreator:
 
 Qt Creator 如何使用 SDK
@@ -22,78 +18,29 @@ Qt Creator 如何使用 SDK
 
 打开 Qt Creator ，然后 ``New Project``\ ，
 
-|image0|
-
-.. raw:: latex
-
-   \latexonly
-
-:raw-latex:`\includegraphics[width=1\textwidth]{new_project.png}`
-:raw-latex:`\endlatexonly`
+.. image:: ../../static/images/projects/qtcreator/new_project.png
 
 选择 ``Qt Widgets Application`` ，
 
-|image1|
-
-.. raw:: latex
-
-   \latexonly
-
-:raw-latex:`\includegraphics[width=1\textwidth]{new_project2.png}`
-:raw-latex:`\endlatexonly`
+.. image:: ../../static/images/projects/qtcreator/new_project2.png
 
 设置项目位置和名字，
 
-|image2|
-
-.. raw:: latex
-
-   \latexonly
-
-:raw-latex:`\includegraphics[width=1\textwidth]{new_project3.png}`
-:raw-latex:`\endlatexonly`
+.. image:: ../../static/images/projects/qtcreator/new_project3.png
 
 选择 build kits ，
 
-|image3|
-
-.. raw:: latex
-
-   \latexonly
-
-:raw-latex:`\includegraphics[width=1\textwidth]{new_project4.png}`
-:raw-latex:`\endlatexonly`
+.. image:: ../../static/images/projects/qtcreator/new_project4.png
 
 然后他将会生成框架源文件，
 
-|image4|
+..  image:: ../../static/images/projects/qtcreator/new_project5.png
 
-.. raw:: latex
-
-   \latexonly
-
-:raw-latex:`\includegraphics[width=1\textwidth]{new_project5.png}`
-:raw-latex:`\endlatexonly`
-
-|image5|
-
-.. raw:: latex
-
-   \latexonly
-
-:raw-latex:`\includegraphics[width=1\textwidth]{new_project6.png}`
-:raw-latex:`\endlatexonly`
+..  image:: ../../static/images/projects/qtcreator/new_project6.png
 
 最后，你将会看到这样的新项目工程，
 
-|image6|
-
-.. raw:: latex
-
-   \latexonly
-
-:raw-latex:`\includegraphics[width=1\textwidth]{new_project7.png}`
-:raw-latex:`\endlatexonly`
+..  image:: ../../static/images/projects/qtcreator/new_project7.png
 
 配置项目
 --------
@@ -128,47 +75,15 @@ Windows
 
 选择 “Release” 来运行项目。
 
-|image7|
-
-.. raw:: latex
-
-   \latexonly
-
-:raw-latex:`\includegraphics[width=0.5\textwidth]{release_run.png}`
-:raw-latex:`\endlatexonly`
+.. image:: ../../static/images/projects/qtcreator/release_run.png
 
 然后你将看到主窗口，
 
-|image8|
-
-.. raw:: latex
-
-   \latexonly
-
-:raw-latex:`\includegraphics[width=1\textwidth]{run_win.png}`
-:raw-latex:`\endlatexonly`
+.. image:: ../../static/images/projects/qtcreator/run_win.png
 
 Linux
 ~~~~~
 
 运行项目，你将看到主窗口，
 
-|image9|
-
-.. raw:: latex
-
-   \latexonly
-
-:raw-latex:`\includegraphics[width=1\textwidth]{run_linux.png}`
-:raw-latex:`\endlatexonly`
-
-.. |image0| image:: ../../static/images/projects/qtcreator/new_project.png
-.. |image1| image:: ../../static/images/projects/qtcreator/new_project2.png
-.. |image2| image:: ../../static/images/projects/qtcreator/new_project3.png
-.. |image3| image:: ../../static/images/projects/qtcreator/new_project4.png
-.. |image4| image:: ../../static/images/projects/qtcreator/new_project5.png
-.. |image5| image:: ../../static/images/projects/qtcreator/new_project6.png
-.. |image6| image:: ../../static/images/projects/qtcreator/new_project7.png
-.. |image7| image:: ../../static/images/projects/qtcreator/release_run.png
-.. |image8| image:: ../../static/images/projects/qtcreator/run_win.png
-.. |image9| image:: ../../static/images/projects/qtcreator/run_linux.png
+.. image:: ../../static/images/projects/qtcreator/run_linux.png
