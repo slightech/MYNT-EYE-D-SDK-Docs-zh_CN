@@ -18,29 +18,29 @@ Qt Creator 如何使用 SDK
 
 打开 Qt Creator ，然后 ``New Project``\ ，
 
-.. image:: ../../static/images/projects/qtcreator/new_project.png
+.. image:: ../static/images/projects/qtcreator/new_project.png
 
 选择 ``Qt Widgets Application`` ，
 
-.. image:: ../../static/images/projects/qtcreator/new_project2.png
+.. image:: ../static/images/projects/qtcreator/new_project2.png
 
 设置项目位置和名字，
 
-.. image:: ../../static/images/projects/qtcreator/new_project3.png
+.. image:: ../static/images/projects/qtcreator/new_project3.png
 
 选择 build kits ，
 
-.. image:: ../../static/images/projects/qtcreator/new_project4.png
+.. image:: ../static/images/projects/qtcreator/new_project4.png
 
 然后他将会生成框架源文件，
 
-..  image:: ../../static/images/projects/qtcreator/new_project5.png
+..  image:: ../static/images/projects/qtcreator/new_project5.png
 
-..  image:: ../../static/images/projects/qtcreator/new_project6.png
+..  image:: ../static/images/projects/qtcreator/new_project6.png
 
 最后，你将会看到这样的新项目工程，
 
-..  image:: ../../static/images/projects/qtcreator/new_project7.png
+..  image:: ../static/images/projects/qtcreator/new_project7.png
 
 配置项目
 --------
@@ -75,15 +75,15 @@ Windows
 
 选择 “Release” 来运行项目。
 
-.. image:: ../../static/images/projects/qtcreator/release_run.png
+.. image:: ../static/images/projects/qtcreator/release_run.png
 
 然后你将看到主窗口，
 
-.. image:: ../../static/images/projects/qtcreator/run_win.png
+.. image:: ../static/images/projects/qtcreator/run_win.png
 
 Linux
 ~~~~~
 
 运行项目，你将看到主窗口，
 
-.. image:: ../../static/images/projects/qtcreator/run_linux.png
+.. image:: ../static/images/projects/qtcreator/run_linux.png
