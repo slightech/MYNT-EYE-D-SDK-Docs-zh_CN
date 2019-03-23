@@ -10,12 +10,12 @@ MYNT® EYE D SDK
    :titlesonly:
    :maxdepth: 2
 
-   zh-Hans/product/contents
-   zh-Hans/installation/contents
-   zh-Hans/samples/contents
-   zh-Hans/tools/contents
-   zh-Hans/projects/contents
-   zh-Hans/slam/contents
+   product/contents
+   installation/contents
+   samples/contents
+   tools/contents
+   projects/contents
+   slam/contents
    api/contents
 
 ..

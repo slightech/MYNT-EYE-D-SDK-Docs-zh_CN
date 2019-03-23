@@ -105,7 +105,7 @@
 
   启用此功能后，你可以看到ir光斑:
 
-  .. image:: ../../static/images/ir.png
+  .. image:: ../static/images/ir.png
 
 启用IR Depth Only
 -----------------

@@ -122,12 +122,12 @@ Windows SDK 用户指南
 
    Visual Studio Command Prompt 可以从开始菜单打开，
 
-  .. image:: ../../static/images/vs_cmd_menu.png
+  .. image:: ../static/images/vs_cmd_menu.png
     :width: 30%
 
   也可以从 Visual Studio 的工具菜单里打开，
 
-  .. image:: ../../static/images/vs_cmd.png
+  .. image:: ../static/images/vs_cmd.png
     :width: 40%
 
   但如 Visual Studio 2015 工具菜单里可能没有，可以自己添加个。

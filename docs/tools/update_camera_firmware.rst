@@ -43,7 +43,7 @@ Drive <https://drive.google.com/open?id=1gAbTf6W10a8iwT7L9TceMVgxQCWKnEsx>`__,
 
 参考图示使用工具:
 
-.. figure:: ../../static/images/update_camera_tool.png
+.. figure:: ../static/images/update_camera_tool.png
    :alt: update tool
 
 

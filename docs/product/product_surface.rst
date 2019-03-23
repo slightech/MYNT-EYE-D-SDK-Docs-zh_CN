@@ -33,4 +33,4 @@ C. USB Micro-B 接口及固定孔：使用中，插上 USB Micro-B
 
 D. 1/4 英寸标准固定螺孔：用于将双目摄像头固定于摄影三角架等装置。
 
-.. |image0| image:: ../../static/images/zh-Hans/mynteye_surface.jpg
+.. |image0| image:: ../static/images/mynteye_surface.jpg
