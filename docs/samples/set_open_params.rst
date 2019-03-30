@@ -134,14 +134,14 @@ Only功能。默认关闭。开启此功能后，IR只作用于深度图像，�
 调整深度图着色值
 ----------------
 
-通过设置 ``params.colour_depth_value`` 参数, 默认值是 1000。
+通过设置 ``params.colour_depth_value`` 参数, 默认值是 5000。
 
 参考代码片段:
 
 .. code-block:: c++
 
-   // Colour depth image, default 1000. [0, 16384]
-   params.colour_depth_value = 1000;
+   // Colour depth image, default 5000. [0, 16384]
+   params.colour_depth_value = 5000;
 
 以上功能参考运行结果，于 Linux 上：
 

@@ -42,7 +42,7 @@
 
   cd (local path of MYNT-EYE-D-SDK)
   source ./wrappers/ros/devel/setup.bash
-  roslaunch mynteye_wrapper_d mynteye.launch
+  roslaunch mynteye_wrapper_d vins_fusion.launch
 
 2.打开另一个命令行运行vins
 
