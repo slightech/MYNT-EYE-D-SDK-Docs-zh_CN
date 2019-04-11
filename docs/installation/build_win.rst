@@ -1,7 +1,3 @@
-.. role:: raw-latex(raw)
-   :format: latex
-..
-
 .. _build_win:
 
 Windows SDK 用户指南
@@ -15,7 +11,9 @@ Windows SDK 用户指南
 1.1 安装 Visual Studio
 ~~~~~~~~~~~~~~~~~~~~~~
 
-从 https://visualstudio.microsoft.com/ 下载并安装
+从 https://visualstudio.microsoft.com/ 下载并安装。选择c++桌面开发，下载
+
+.. image:: ../static/images/vs_install.png
 
 .. tip::
 
@@ -32,9 +30,9 @@ Windows SDK 用户指南
 
 1) 从 http://mirrors.ustc.edu.cn/msys2/distrib/x86_64/ 下载并安装
 
-2) 将 bin 目录的路径添加到系统变量的 PATH 变量列表中
+2) 将 bin 目录的路径添加到系统变量的 PATH 变量列表中（`如何添加系统变量 <https://jingyan.baidu.com/article/47a29f24610740c0142399ea.html>`_)
 
-.. code-block:: none
+.. code-block:: bat
 
    C:\msys64\usr\bin
 
@@ -72,7 +70,7 @@ Windows SDK 用户指南
 2.1.2 设置环境变量
 ^^^^^^^^^^^^^^^^^^
 
-使用管理员权限开启 cmd,  输入以下命令来添加OPENCV_DIR变量到系统变量中:
+1.使用管理员权限开启 cmd,  输入以下命令来添加OPENCV_DIR变量到系统变量中:
 
 *将 “D:\OpenCV” 替换为您自己的解压缩目录*
 
@@ -81,9 +79,17 @@ Windows SDK 用户指南
    setx -m OPENCV_DIR D:\OpenCV\Build\x64\vc14\lib     (Visual Studio 2015 使用该命令)
    setx -m OPENCV_DIR D:\OpenCV\Build\x64\vc15\lib     (Visual Studio 2017 使用该命令)
 
-将 OpenCV bin 路径添加到系统环境变量的 PATH 变量列表中
+也可以参考 `如何添加系统变量 <https://jingyan.baidu.com/article/47a29f24610740c0142399ea.html>`_ 将变量手动添加。
 
-.. code-block:: none
+.. code-block:: bat
+
+   D:\OpenCV\Build\x64\vc14\lib     (Visual Studio 2015 使用该路径)
+   D:\OpenCV\Build\x64\vc15\lib     (Visual Studio 2017 使用该路径)
+  
+
+2.将 OpenCV bin 路径添加到系统环境变量的 PATH 变量列表中
+
+.. code-block:: bat
 
    D:\OpenCV\Build\x64\vc14\bin     (Visual Studio 2015 使用该路径)
    D:\OpenCV\Build\x64\vc15\bin     (Visual Studio 2017 使用该路径)
@@ -96,7 +102,7 @@ Windows SDK 用户指南
 
 2) 将 bin 目录的路径添加到系统变量的 PATH 变量列表中
 
-.. code-block:: none
+.. code-block:: bat
 
    C:\libjpeg-turbo64\bin
 

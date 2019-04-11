@@ -3,18 +3,28 @@
 ROS 安装
 ========
 
-1.1 安装 ROS Kinectic 版本
---------------------------
+1.1 安装 ROS 
+----------------------
+
+ROS Melodic (Ubuntu 18.04)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
-   cd ~
-   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/master/ros_install.sh && \
-   chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
+  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+  sudo apt update
+  sudo apt install ros-melodic-desktop-full
+  sudo rosdep init
+  rosdep update
 
-..
+ROS Kinetic (Ubuntu 16.04)
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   ROS Kinetic 会自动安装 OpenCV, JPEG.
+.. code-block:: bash
+
+  wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/master/ros_install.sh && \
+  chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
 1.2 编译 ROS Wrapper
 --------------------

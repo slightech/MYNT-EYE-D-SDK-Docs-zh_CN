@@ -8,9 +8,8 @@
 ------------------------------------------------
 
 1. 下载 `MYNT-EYE-D-SDK <https://github.com/slightech/MYNT-EYE-D-SDK.git>`_ 及 :ref:`ros_install`。
-2. 按照一般步骤安装 ORB_SLAM2 。
-3. 更新 ``distortion_parameters`` 和 ``projection_parameters`` 参数到 ``<ORB_SLAM2>/config/mynteye_d.yaml``。
-4. 在 MYNT® EYE 上运行例子。
+2. 按照步骤安装 ORB_SLAM2 。
+3. 在 MYNT® EYE 上运行例子。
 
 
 ROS 下创建单目和双目节点
@@ -33,10 +32,6 @@ ROS 下创建单目和双目节点
 Stereo_ROS 例子
 ~~~~~~~~~~~~~~~~
 
-  * 按照 :ref:`slam_okvis` 中的``获取相机校准参数`` 得到 ``distortion_parameters`` 和 ``projection_parameters`` 参数，并在 ``<ORB_SLAM2>/config/mynteye_d_stereo.yaml`` 中更新参数。
-
-  * 运行 ORB_SLAM2 ``Stereo_ROS`` 例子
-
 1.运行mynteye节点
 
 .. code-block:: bash
@@ -44,7 +39,7 @@ Stereo_ROS 例子
   cd [path of mynteye-d-sdk]
   make ros
   source ./wrappers/ros/devel/setup.bash
-  roslaunch mynteye_wrapper_d mynteye.launch
+  roslaunch mynteye_wrapper_d orb_slam2.launch
 
 2.打开另一个命令行运行ORB_SLAM2
 

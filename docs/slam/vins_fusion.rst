@@ -8,7 +8,7 @@
 ------------------------------------------------------------
 
 1. 下载 `MYNT-EYE-D-SDK <https://github.com/slightech/MYNT-EYE-D-SDK.git>`_ 及 :ref:`ros_install`。
-2. 按照一般步骤安装 VINS-Fusion 。
+2. 按照步骤安装 VINS-Fusion 。
 3. 运行 mynteye_wrapper_d 和 VINS-Fusion 。
 
 
@@ -26,10 +26,12 @@
 
   mkdir -p ~/catkin_ws/src
   cd ~/catkin_ws/src
-  git clone -b mynteye https://github.com/slightech/MYNT-EYE-VINS-FUSION-Samples.git
+  git clone https://github.com/slightech/MYNT-EYE-VINS-FUSION-Samples.git
   cd ..
   catkin_make
   source ~/catkin_ws/devel/setup.bash
+  echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+  source ~/.bashrc
 
 (如果安装失败，请尝试换一台系统干净的电脑或者重新安装系统与ROS)
 
@@ -40,11 +42,11 @@
 
 .. code-block:: bash
 
-  cd (local path of MYNT-EYE-D-SDK)
+  cd MYNT-EYE-D-SDK (local path of MYNT-EYE-D-SDK)
   source ./wrappers/ros/devel/setup.bash
   roslaunch mynteye_wrapper_d vins_fusion.launch
 
-2.打开另一个命令行运行vins
+2.打开另一个命令行运行vins-fusion
 
 .. code-block:: bash
 
