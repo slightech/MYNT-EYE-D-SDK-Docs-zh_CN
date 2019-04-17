@@ -74,7 +74,7 @@ ROS 封装的文件结构，如下所示：
         └─package.xml
 
 其中 ``mynteye.launch`` 里，可以配置发布的 topics 与 frame_ids
-、决定启用哪些数据、以及设定控制选项。其中，\ ``gravity``
+、决定启用哪些数据、以及设定控制选项。修改分辨率和帧率需要根据 :ref:`support_resolutions`。其中，\ ``gravity``
 请配置成当地重力加速度。
 
 .. code-block:: c++

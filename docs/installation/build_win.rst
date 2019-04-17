@@ -30,7 +30,7 @@ Windows SDK 用户指南
 
 1) 从 http://mirrors.ustc.edu.cn/msys2/distrib/x86_64/ 下载并安装
 
-2) 将 bin 目录的路径添加到系统变量的 PATH 变量列表中（`如何添加系统变量 <https://jingyan.baidu.com/article/47a29f24610740c0142399ea.html>`_)
+2) 将 bin 目录的路径添加到系统变量的 PATH 变量列表中（`如何添加系统变量 <https://jingyan.baidu.com/article/47a29f24610740c0142399ea.html>`__)
 
 .. code-block:: bat
 

@@ -19,6 +19,22 @@
 2. 安装 `Ceres <http://ceres-solver.org/installation.html>`_
 
 
+安装Ceres
+---------------
+
+.. code-block:: bash
+
+    cd ~
+    git clone https://ceres-solver.googlesource.com/ceres-solver
+    sudo apt-get -y install cmake libgoogle-glog-dev libatlas-base-dev libeigen3-dev libsuitesparse-dev
+    sudo add-apt-repository ppa:bzindovic/suitesparse-bugfix-1319687
+    sudo apt-get update && sudo apt-get install libsuitesparse-dev
+    mkdir ceres-bin
+    cd ceres-bin
+    cmake ../ceres-solver
+    make -j3
+    sudo make install
+
 安装 MYNT-EYE-VINS-FUSION-Samples
 ---------------------------------
 
