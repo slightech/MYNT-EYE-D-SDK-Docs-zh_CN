@@ -33,3 +33,11 @@ goto end
 
 :end
 popd
+
+if "%1" == "pdf" (
+  %SPHINXBUILD% -b pdf %SOURCEDIR% %BUILDDIR%/pdf
+  if errorlevel 1 exit /b 1
+  echo.
+  echo.Build finished. The pdf files are in %BUILDDIR%/pdf.
+  goto end
+)
