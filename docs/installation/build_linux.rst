@@ -52,9 +52,19 @@ Linux SDK 用户指南
 1.2 安装点云例程依赖的 PCL 库 (可选)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+    PCL安装，请见官方文档`PCL Installation <http://www.pointclouds.org/documentation/tutorials/compiling_pcl_posix.php>`__
+
 .. code-block:: bash
 
-   sudo apt-get install libpcl-dev libproj-dev libopenni2-dev libopenni-dev
+  git clone https://github.com/PointCloudLibrary/pcl.git
+  cd pcl
+  git checkout pcl-1.7.2
+  mkdir build && cd build
+
+  cmake -DCMAKE_BUILD_TYPE=Release ..
+
+  make -j2
+  sudo make -j2 install
 
 1.3 建立 libGL.so 软链接用以解决在 TX1/TX2 上的 bug (可选)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
