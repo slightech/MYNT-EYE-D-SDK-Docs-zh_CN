@@ -11,6 +11,20 @@
 2. 按照步骤安装 ORB_SLAM2 。
 3. 在 MYNT® EYE 上运行例子。
 
+准备
+-------
+
+.. code-block:: bash
+
+    sudo apt-get -y install libglew-dev cmake
+    cd ~
+    git clone https://github.com/stevenlovegrove/Pangolin.git
+    cd Pangolin
+    mkdir build
+    cd build
+    cmake ..
+    cmake --build .
+    sudo make install
 
 ROS 下创建单目和双目节点
 ------------------------
@@ -25,6 +39,8 @@ ROS 下创建单目和双目节点
 
 .. code-block:: bash
 
+  chmod +x build.sh
+  ./build.sh
   chmod +x build_ros.sh
   ./build_ros.sh
 
