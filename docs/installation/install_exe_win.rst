@@ -29,8 +29,4 @@ CMake https://cmake.org/ 。
 
   运行样例需要先右键样例，设为启动项目，然后使用Release x64运行。
 
-如何于 Visual Studio 2017 下使用 SDK
-------------------------------------
 
-进入 ``<SDK_ROOT_DIR>\projects\vs2017`` ，见 “README.md”
-说明。
