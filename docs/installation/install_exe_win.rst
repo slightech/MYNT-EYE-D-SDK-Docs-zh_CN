@@ -7,7 +7,7 @@
 Windows 预编译 exe 安装
 =======================
 
-   下载地址： mynteye-d-1.7.1-win-x64-opencv-3.4.3.exe `Google
+   下载地址： mynteye-d-x.x.x-win-x64-opencv-3.4.3.exe `Google
    Drive <https://drive.google.com/open?id=1FQrRdpK51U43ihX5pVkMRUedtOOc0FNg>`__,
    `百度网盘 <https://pan.baidu.com/s/1GeeZ-4-DVyZJ2wUh0aknjQ>`__
 
