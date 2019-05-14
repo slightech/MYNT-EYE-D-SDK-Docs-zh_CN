@@ -24,6 +24,10 @@ Linux SDK 用户指南
 1.1.1.2 编译安装 OpenCV
 '''''''''''''''''''''''
 
+.. tip::
+
+    如果需要安装ros，可以跳过这一步骤，直接使用ros中自带的opencv。
+
    OpenCV 如何编译安装，请见官方文档
    `Installation in Linux <https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html>`__\
    。或参考如下命令：
