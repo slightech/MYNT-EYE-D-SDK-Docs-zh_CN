@@ -20,58 +20,6 @@
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/master/ros_install.sh && \
   chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
-安装Ceres
----------------
-
-.. code-block:: bash
-
-    cd ~
-    git clone https://ceres-solver.googlesource.com/ceres-solver
-    sudo apt-get -y install cmake libgoogle-glog-dev libatlas-base-dev libeigen3-dev libsuitesparse-dev
-    sudo add-apt-repository ppa:bzindovic/suitesparse-bugfix-1319687
-    sudo apt-get update && sudo apt-get install libsuitesparse-dev
-    mkdir ceres-bin
-    cd ceres-bin
-    cmake ../ceres-solver
-    make -j3
-    sudo make install
-
-
-在 MYNT® EYE 上运行 VINS-Mono
------------------------------
-
-安装 MYNT-EYE-VINS-Sample
-+++++++++++++++++++++++++++
-
-.. code-block:: bash
-
-  mkdir -p ~/catkin_ws/src
-  cd ~/catkin_ws/src
-  git clone https://github.com/slightech/MYNT-EYE-VINS-Sample.git
-  cd ..
-  catkin_make
-  source devel/setup.bash
-  echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
-  source ~/.bashrc
-
-运行 VINS_MONO
-+++++++++++++++++++++
-
-1.运行mynteye节点
-
-.. code-block:: bash
-
-  cd (local path of MYNT-EYE-D-SDK)
-  source ./wrappers/ros/devel/setup.bash
-  roslaunch mynteye_wrapper_d vins_mono.launch
-
-2.打开另一个命令行运行vins
-
-.. code-block:: bash
-
-  cd ~/catkin_ws
-  roslaunch vins_estimator mynteye_d.launch
-
 
 在 docker 上运行 VINS-MONO
 ---------------------------------
