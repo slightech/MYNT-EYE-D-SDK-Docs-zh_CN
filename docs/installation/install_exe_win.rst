@@ -18,8 +18,8 @@ Windows 预编译 exe 安装
 
 .. note::
 
-  如果无法运行样例，请先检查一下系统变量PATH中是否成功添加了``<SDK_ROOT_DIR>\bin``,``<SDK_ROOT_DIR>\bin\3rdparty``,
-  ``<SDK_ROOT_DIR>\3rdparty\libjpeg-turbo64\bin``,
+  如果无法运行样例，请先检查一下系统变量PATH中是否成功添加了 ``<SDK_ROOT_DIR>\bin`` , ``<SDK_ROOT_DIR>\bin\3rdparty`` ,
+  ``<SDK_ROOT_DIR>\3rdparty\libjpeg-turbo64\bin`` 。
 
 
 生成样例工程

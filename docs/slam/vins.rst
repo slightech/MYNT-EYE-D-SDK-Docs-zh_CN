@@ -102,8 +102,8 @@
 
 .. tip::
 
-  可以使用``sudo usermod -aG docker $YOUR_USER_NAME`` 添加账号到 ``docker group``。
-  如果遇到``Permission denied``的问题，可以重启命令行或注销并重新登录。
+  可以使用 ``sudo usermod -aG docker $YOUR_USER_NAME`` 添加账号到 ``docker group`` 。
+  如果遇到"Permission denied"的问题，可以重启命令行或注销并重新登录。
 
 安装 MYNT-EYE-VINS-Samples
 ++++++++++++++++++++++++++++++++++++++
