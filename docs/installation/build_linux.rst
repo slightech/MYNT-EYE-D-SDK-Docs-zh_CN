@@ -58,6 +58,10 @@ Linux SDK 用户指南
 
     PCL安装，请见官方文档`PCL Installation <http://www.pointclouds.org/documentation/tutorials/compiling_pcl_posix.php>`__
 
+.. tip::
+
+    如果需要安装ros，可以跳过这一步骤，直接使用ros中自带的pcl。
+
 .. code-block:: bash
 
   git clone https://github.com/PointCloudLibrary/pcl.git
