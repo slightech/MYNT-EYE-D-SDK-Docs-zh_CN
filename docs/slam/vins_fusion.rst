@@ -12,11 +12,14 @@
 3. 运行 mynteye_wrapper_d 和 VINS-Fusion 。
 
 
-准备步骤
---------
+快捷安装 ROS Kinetic (若已安装，请忽略)
+---------------------------------------
 
-1. 安装 Ubuntu 64位 16.04/18.04. ROS Kinetic/Melodic(如果已经安装ROS可以跳过). `ROS安装步骤 <http://wiki.ros.org/ROS/Installation>`_
-2. 安装 `Ceres <http://ceres-solver.org/installation.html>`_
+.. code-block:: bash
+
+  cd ~
+  wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/master/ros_install.sh && \
+  chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
 
 在 docker 上运行 VINS-FUSION
@@ -69,7 +72,7 @@
 
   cd MYNT-EYE-D-SDK (local path of MYNT-EYE-D-SDK)
   source ./wrappers/ros/devel/setup.bash
-  roslaunch mynteye_wrapper_d vins_fusion.launch
+  roslaunch mynteye_wrapper_d vins_fusion.launch stream_mode:=1 # stereo camera with 640x480
 
 2.打开另一个命令行运行vins-fusion
 

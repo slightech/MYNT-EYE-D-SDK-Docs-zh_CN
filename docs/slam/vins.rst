@@ -8,7 +8,7 @@
 ------------------------------------------------
 
 1. 下载 `MYNT-EYE-D-SDK <https://github.com/slightech/MYNT-EYE-D-SDK.git>`_ 及 :ref:`ros_install`。
-2. 按照一般步骤安装 VINS-Mono 。
+2. 按照步骤安装 VINS-Mono 。
 3. 运行 mynteye_wrapper_d 和 VINS-Mono 。
 
 快捷安装 ROS Kinetic (若已安装，请忽略)
@@ -58,7 +58,7 @@
 
 .. code-block::
 
-  git clone -b test_new_rep https://github.com/slightech/MYNT-EYE-VINS-Sample.git
+  git clone -b docker_feat https://github.com/slightech/MYNT-EYE-VINS-Sample.git
   cd MYNT-EYE-VINS-Sample/docker
   make build
 
@@ -71,7 +71,7 @@
 
   cd MYNT-EYE-D-SDK (local path of MYNT-EYE-D-SDK)
   source ./wrappers/ros/devel/setup.bash
-  roslaunch mynteye_wrapper_d vins_mono.launch
+  roslaunch mynteye_wrapper_d vins_mono.launch stream_mode:=0
 
 2.打开另一个命令行运行vins-mono
 
