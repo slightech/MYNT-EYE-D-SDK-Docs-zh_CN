@@ -48,7 +48,7 @@
 
 .. code-block:: c++
 
-   /** Recommended exposure time [1ms - 2000ms]
+   /** Recommended exposure time [1ms - 655ms]
     * value -- exposure time value
     * */
    void SetExposureTime(const float &value);    see "camera.h"
