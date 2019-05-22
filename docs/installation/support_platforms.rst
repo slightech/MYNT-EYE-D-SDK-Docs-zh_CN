@@ -10,7 +10,7 @@ SDK是基于CMake构建的，用以Linux，Windows等多个平台。SDK提供两
 ::
 
    * Windows 10
-   * Ubuntu 18.04/16.04
+   * Ubuntu 18.04.1/16.04.6
    * Jetson TX1 TX2 Xavier
    * RK3399
 
