@@ -62,7 +62,7 @@
   cd MYNT-EYE-VINS-Sample/docker
   make build
 
-运行 VINS_MONO
+运行 VINS-MONO
 +++++++++++++++++++++++
 
 1.运行mynteye节点
