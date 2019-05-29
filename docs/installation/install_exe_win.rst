@@ -7,7 +7,7 @@
 Windows 预编译 exe 安装
 =======================
 
-   下载地址： mynteye-d-1.7.1-win-x64-opencv-3.4.3.exe `Google
+   下载地址： mynteye-d-x.x.x-win-x64-opencv-3.4.3.exe `Google
    Drive <https://drive.google.com/open?id=1FQrRdpK51U43ihX5pVkMRUedtOOc0FNg>`__,
    `百度网盘 <https://pan.baidu.com/s/1GeeZ-4-DVyZJ2wUh0aknjQ>`__
 
@@ -15,6 +15,12 @@ Windows 预编译 exe 安装
 
 进入 “\bin\samples” 目录，双击 “get_image.exe”
 运行，即可看到相机画面。
+
+.. note::
+
+  如果无法运行样例，请先检查一下系统变量PATH中是否成功添加了 ``<SDK_ROOT_DIR>\bin`` , ``<SDK_ROOT_DIR>\bin\3rdparty`` ,
+  ``<SDK_ROOT_DIR>\3rdparty\libjpeg-turbo64\bin`` 。
+
 
 生成样例工程
 ------------
@@ -29,8 +35,4 @@ CMake https://cmake.org/ 。
 
   运行样例需要先右键样例，设为启动项目，然后使用Release x64运行。
 
-如何于 Visual Studio 2017 下使用 SDK
-------------------------------------
 
-进入 ``<SDK_ROOT_DIR>\projects\vs2017`` ，见 “README.md”
-说明。

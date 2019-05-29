@@ -83,11 +83,11 @@ ROS 封装的文件结构，如下所示：
 
   <!-- Device index -->
   <arg name="dev_index" default="0" />
-  <!-- Framerate -->
+  <!-- 修改帧率 -->
   <arg name="framerate" default="30" />
 
   <!--
-  Device mode
+  设置设备模式
     device_color: left_color ✓ right_color ? depth x
     device_depth: left_color x right_color x depth ✓
     device_all:   left_color ✓ right_color ? depth ✓
@@ -95,18 +95,22 @@ ROS 封装的文件结构，如下所示：
   -->
   <arg name="dev_mode" default="$(arg device_all)" />
 
-  <arg name="color_mode" default="$(arg color_raw)" />
+  <!-- 设置深度模式 -->
   <!-- Note: must set DEPTH_RAW to get raw depth values for points -->
   <arg name="depth_mode" default="$(arg depth_raw)" />
+  <!--
+  设置分辨率
+  可以设置的分辨率为 stream_640x480,stream_1280x720,stream_1280x480,stream_2560x720
+  -->
   <arg name="stream_mode" default="$(arg stream_2560x720)" />
 
-  <!-- Auto-exposure -->
+  <!-- 设置自动曝光 -->
   <arg name="state_ae" default="true" />
-  <!-- Auto-white balance -->
+  <!-- 设置自动白平衡 -->
   <arg name="state_awb" default="true" />
-  <!-- IR intensity -->
+  <!-- 设置IR数值 -->
   <arg name="ir_intensity" default="4" />
-  <!-- IR Depth Only -->
+  <!-- 设置IR Depth Only模式 -->
   <arg name="ir_depth_only" default="false" />
 
   <!-- Setup your local gravity here -->

@@ -6,8 +6,8 @@
 .. note::
   此工具不支持内测版设备升级
 
-获取芯片固件
--------------
+获取主芯片固件
+--------------
 
 Latest firmware: MYNTEYE_D_016_006.bin
 `Google
@@ -25,7 +25,7 @@ Drive <https://drive.google.com/open?id=1gAbTf6W10a8iwT7L9TceMVgxQCWKnEsx>`__,
 ---------
 
 .. note::
-  请严格按照步骤升级芯片.(否则可能会丢失相机标定参数)
+  请严格按照步骤升级固件.(否则可能会丢失相机标定参数)
 
   1, 选择相机设备.
 

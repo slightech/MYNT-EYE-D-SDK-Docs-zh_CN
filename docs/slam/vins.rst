@@ -8,7 +8,7 @@
 ------------------------------------------------
 
 1. 下载 `MYNT-EYE-D-SDK <https://github.com/slightech/MYNT-EYE-D-SDK.git>`_ 及 :ref:`ros_install`。
-2. 按照一般步骤安装 VINS-Mono 。
+2. 按照步骤安装 VINS-Mono 。
 3. 运行 mynteye_wrapper_d 和 VINS-Mono 。
 
 快捷安装 ROS Kinetic (若已安装，请忽略)
@@ -20,52 +20,62 @@
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/master/ros_install.sh && \
   chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
-安装Ceres
----------------
+
+在 docker 上运行 VINS-MONO
+---------------------------------
+
+.. note::
+
+  为了能够使用docker进行编译，建议使用16G以上的RAM，或者确保RAM和虚拟内存空间大于16G。
+
+安装docker
+++++++++++++
 
 .. code-block:: bash
 
-    cd ~
-    git clone https://ceres-solver.googlesource.com/ceres-solver
-    sudo apt-get -y install cmake libgoogle-glog-dev libatlas-base-dev libeigen3-dev libsuitesparse-dev
-    sudo add-apt-repository ppa:bzindovic/suitesparse-bugfix-1319687
-    sudo apt-get update && sudo apt-get install libsuitesparse-dev
-    mkdir ceres-bin
-    cd ceres-bin
-    cmake ../ceres-solver
-    make -j3
-    sudo make install
+  sudo apt-get update
+  sudo apt-get install \
+      apt-transport-https \
+      ca-certificates \
+      curl \
+      gnupg-agent \
+      software-properties-common
+  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  sudo add-apt-repository \
+     "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+     $(lsb_release -cs) \
+     stable"
+  sudo apt-get update
+  sudo apt-get install docker-ce docker-ce-cli containerd.io
 
-安装 MYNT-EYE-VINS-Sample
---------------------------
+.. tip::
 
-.. code-block:: bash
+  可以使用 ``sudo usermod -aG docker $YOUR_USER_NAME`` 添加账号到 ``docker group`` 。
+  如果遇到"Permission denied"的问题，可以重启命令行或注销并重新登录。
 
-  mkdir -p ~/catkin_ws/src
-  cd ~/catkin_ws/src
-  git clone https://github.com/slightech/MYNT-EYE-VINS-Sample.git
-  cd ..
-  catkin_make
-  source devel/setup.bash
-  echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
-  source ~/.bashrc
+安装 MYNT-EYE-VINS-Samples
+++++++++++++++++++++++++++++++++++++++
 
+.. code-block::
 
-在 MYNT® EYE 上运行 VINS-Mono
------------------------------
+  git clone -b docker_feat https://github.com/slightech/MYNT-EYE-VINS-Sample.git
+  cd MYNT-EYE-VINS-Sample/docker
+  make build
+
+运行 VINS-MONO
++++++++++++++++++++++++
 
 1.运行mynteye节点
 
 .. code-block:: bash
 
-  cd (local path of MYNT-EYE-D-SDK)
+  cd MYNT-EYE-D-SDK (local path of MYNT-EYE-D-SDK)
   source ./wrappers/ros/devel/setup.bash
-  roslaunch mynteye_wrapper_d vins_mono.launch
+  roslaunch mynteye_wrapper_d vins_mono.launch stream_mode:=0
 
-2.打开另一个命令行运行vins
+2.打开另一个命令行运行vins-mono
 
 .. code-block:: bash
 
-  cd ~/catkin_ws
-  roslaunch vins_estimator mynteye_d.launch
-
+  cd MYNT-EYE-VINS-Sample/docker (local path of MYNT-EYE-VINS-Sample)
+  ./run.sh mynteye_d.launch

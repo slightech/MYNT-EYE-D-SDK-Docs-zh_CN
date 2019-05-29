@@ -24,9 +24,12 @@ Linux SDK 用户指南
 1.1.1.2 编译安装 OpenCV
 '''''''''''''''''''''''
 
-   OpenCV 如何编译安装，请见官方文档
-   `Installation in Linux <https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html>`__\
-   。或参考如下命令：
+.. tip::
+
+    如果需要安装ros，可以跳过这一步骤，直接使用ros中自带的opencv。
+
+
+OpenCV 如何编译安装，请见官方文档 `Installation in Linux <https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html>`__ 。或参考如下命令：
 
 .. code-block:: bash
 
@@ -52,7 +55,11 @@ Linux SDK 用户指南
 1.2 安装点云例程依赖的 PCL 库 (可选)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    PCL安装，请见官方文档`PCL Installation <http://www.pointclouds.org/documentation/tutorials/compiling_pcl_posix.php>`__
+    PCL安装，请见官方文档 `PCL Installation <http://www.pointclouds.org/documentation/tutorials/compiling_pcl_posix.php>`__ 。
+
+.. tip::
+
+    如果需要安装ros，可以跳过这一步骤，直接使用ros中自带的pcl。
 
 .. code-block:: bash
 
