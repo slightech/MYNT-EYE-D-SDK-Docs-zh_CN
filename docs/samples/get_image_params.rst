@@ -31,7 +31,7 @@
 .. note::
 
    获取的参数中：
-   内参提供``fx``,``fy``,``cx``,``cy``的值，可以得到相应的内参矩阵（参考`sensor_msgs/CameraInfo.msg <http://docs.ros.org/melodic/api/sensor_msgs/html/msg/CameraInfo.html>`__ ），
+   内参提供``fx``,``fy``,``cx``,``cy``的值，可以得到相应的内参矩阵（参考 `sensor_msgs/CameraInfo.msg <http://docs.ros.org/melodic/api/sensor_msgs/html/msg/CameraInfo.html>`__ ），
    畸变参数``coeffs``中包含``k1``,``k2``,``p1``,``p2``,``k3``的值。
    外参中包含旋转矩阵``rotation``,平移矩阵``translation``。
 
