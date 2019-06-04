@@ -1,9 +1,7 @@
-规格
+SDK说明
 ==================
 
 .. toctree::
    :maxdepth: 2
 
-   params_d1000_120
-   params_d1000_50
-  
+   support_platforms
