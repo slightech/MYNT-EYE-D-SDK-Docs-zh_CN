@@ -104,6 +104,9 @@ ROS 封装的文件结构，如下所示：
   -->
   <arg name="stream_mode" default="$(arg stream_2560x720)" />
 
+  <!-- 设置图像模式，可设置为 color_raw(原图), color_rectified(纠正图)-->
+  <arg name="color_mode" default="$(arg color_raw)" />
+
   <!-- 设置自动曝光 -->
   <arg name="state_ae" default="true" />
   <!-- 设置自动白平衡 -->
