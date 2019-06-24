@@ -12,7 +12,7 @@
     virtual bool ProcessFrame(
           std::shared_ptr<Image> out,
           const std::shared_ptr<Image> in) = 0; // NOLINT
-      virtual bool LoadConfig(void* data);
+    virtual bool LoadConfig(void* data);
 
     inline bool TurnOn();
     inline bool TurnOff();
