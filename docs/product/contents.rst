@@ -1,9 +1,12 @@
-规格
+产品
 ==================
 
 .. toctree::
    :maxdepth: 2
 
-   params_d1000_120
-   params_d1000_50
-  
+   product_description
+   product_surface
+   specification
+   support_resolutions
+   imu_coord
+   assembly

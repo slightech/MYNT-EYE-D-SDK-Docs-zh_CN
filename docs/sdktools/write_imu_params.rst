@@ -1,6 +1,6 @@
 .. _write_imu_params:
 
-写入IMU标定参数
+写入 IMU 标定参数
 ===============
 
 SDK提供了写入IMU标定参数的工具 ``imu_params_writer`` 。

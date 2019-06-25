@@ -1,5 +1,3 @@
-.. _slam:
-
 开源项目支持
 ============
 
@@ -10,3 +8,5 @@
    okvis
    viorb
    vins_fusion
+
+   

@@ -4,7 +4,7 @@
 
 .. _analyze_imu:
 
-分析IMU数据
+分析 IMU 数据
 ===========
 
 SDK 提供了 IMU 数据分析工具 imu_analytics.py. 工具的详细信息见

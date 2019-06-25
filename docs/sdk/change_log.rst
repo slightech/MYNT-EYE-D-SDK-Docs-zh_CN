@@ -1,4 +1,4 @@
-.. _change_log:
+.. _sdk_change_log:
 
 
 SDK 更新日志

@@ -1,6 +1,6 @@
 .. _get_imu:
 
-获取IMU数据
+获取 IMU 数据
 ===========
 
 使用\ ``EnableMotionDatas()``\ 来启用缓存，才能通过\ ``GetMotionDatas()``\ 函数来获取到IMU数据。否则，只能通过回调接口得到IMU数据，请参阅 :ref:`get_from_callbacks`。

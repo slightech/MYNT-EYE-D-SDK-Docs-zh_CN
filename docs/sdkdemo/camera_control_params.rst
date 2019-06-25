@@ -1,6 +1,6 @@
 .. _camera_control_params:
 
-相机控制参数API
+相机控制参数 API
 ===============
 
 打开或关闭自动曝光
