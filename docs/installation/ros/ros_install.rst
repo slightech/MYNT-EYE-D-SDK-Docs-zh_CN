@@ -17,6 +17,8 @@ ROS Melodic (Ubuntu 18.04)
   sudo apt install ros-melodic-desktop-full
   sudo rosdep init
   rosdep update
+  echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+  source ~/.bashrc
 
 ROS Kinetic (Ubuntu 16.04)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
