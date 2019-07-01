@@ -17,8 +17,8 @@ Drive <https://drive.google.com/open?id=13QsqgkzNfh4yKDisYgHXtshzFyqRzbDs>`__,
 
 * 深度版50°相机的配置文件存在于D1000-50文件夹, 深度版120°相机的配置文件存在于D1000-120文件夹。
 * HD表示720P, VGA表示480P， 因为深度相机有2种分辨率，所以需要2次标定。
-* 开始标定前把 HD或VGA 文件夹中的 `eDepthK.prj` 复制并替换到 `D1000-eSPCalibrator1.3.10_Release for SICILI` 文件夹下。
-* 用记事本打开 `eDepthK.prj` 文件并找到 `[Chess_Para]` 部分，其中：将Col1/2/3/4 修改为标定板棋盘格的横向黑白交叉点数， Row1/2/3/4 修改为标定板棋盘格的纵向黑白交叉点数, Size1/2/3/4 修改为棋盘格格子边长，单位mm。
+* 开始标定前把 HD或VGA 文件夹中的 ``eDepthK.prj`` 复制并替换到 ``D1000-eSPCalibrator1.3.10_Release for SICILI`` 文件夹下。
+* 用记事本打开 ``eDepthK.prj`` 文件并找到 ``[Chess_Para]`` 部分，其中：将Col1/2/3/4 修改为标定板棋盘格的横向黑白交叉点数， Row1/2/3/4 修改为标定板棋盘格的纵向黑白交叉点数, Size1/2/3/4 修改为棋盘格格子边长，单位mm。
 
 11x7交叉棋盘示例
 -------
@@ -76,12 +76,17 @@ eSPCalibrator 的参数
 校准结果
 -------
 
+* 标定完后标定参数会自动写入相机。
+
 .. image:: ../images/calibration003.png
    :width: 80%
 
+* 标定结束后命令行出打印出左右目的 ``Reprojection error(重投影误差)`` ，标定结果，要求重投影误差最好能达到0.2或更低。如果超过0.5，需要重新标定。
 
 日志文件
 -------
+
+* 标定后日志文件会保存到 ``Log_Folder`` 。
 
 .. image:: ../images/calibration006.png
    :width: 80%
