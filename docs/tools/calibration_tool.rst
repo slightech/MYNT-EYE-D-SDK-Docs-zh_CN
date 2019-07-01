@@ -4,19 +4,42 @@ MYNT EYE D 标定说明
 ==========
 
 
+获取标定工具
+------------
 
-介绍
---------
+Latest tool:  D1000-eSPCalibrator1.3.10_Release for SICILI.zip `Google
+Drive <https://drive.google.com/open?id=13QsqgkzNfh4yKDisYgHXtshzFyqRzbDs>`__,
+`Baidu Pan <https://pan.baidu.com/s/11gbg_KkzaezNa52YfdMjJw>`__
 
-该手动标定工具可以生成校准数据和ZD表格（计算距离差异)。手动标定主要与两个参数有关：1.棋盘的大小  2.棋盘与双目相机之间的距离
 
-* 棋盘与相机模块之间的距离，建议是目标应用的工作距离。
+准备工作(更新配置文件)
+---------------------
 
-* 棋盘的推荐尺寸，建议是棋盘的大小应该覆盖预览图像最大尺寸的50%。
+* 深度版50°相机的配置文件存在于D1000-50文件夹, 深度版120°相机的配置文件存在于D1000-120文件夹。
+* HD表示720P, VGA表示480P， 因为深度相机有2种分辨率，所以需要2次标定。
+* 开始标定前把 HD或VGA 文件夹中的 `eDepthK.prj` 复制并替换到 `D1000-eSPCalibrator1.3.10_Release for SICILI` 文件夹下。
+* 用记事本打开 `eDepthK.prj` 文件并找到 `[Chess_Para]` 部分，其中：将Col1/2/3/4 修改为标定板棋盘格的横向黑白交叉点数， Row1/2/3/4 修改为标定板棋盘格的纵向黑白交叉点数, Size1/2/3/4 修改为棋盘格格子边长，单位mm。
+
+11x7交叉棋盘示例
+-------
+
+.. image:: ../images/calibration005.png
+   :width: 80%
+
+eSPCalibrator 的参数
+-------
+
+.. image:: ../images/calibration004.png
+   :width: 80%
+
+1. 打开 eDepthK.prj 文件
+2. 注意'Col1''Row1''Size1'必须与棋盘相匹配
+
 
 校准过程 1 (Yoffset)
---------
+--------------------
 
+* 如果标定的是VGA模式，可以直接进行校准过程2。
 * 校准过程 1 需要1张图片。
 * 棋盘必须在相机的前方，并且覆盖预览图像尽可能大的面积（超过50%）。
 * 按下 “c”或者 “C” 获得正确位置的棋盘照片。
@@ -38,7 +61,7 @@ MYNT EYE D 标定说明
 
 * 校准过程 2 需要5个不同角度的5张图片。
 
-* 所需的角度是将 X 轴沿 Y 轴旋转，每次旋转 10°或者30°。也可以讲 Y 轴沿 X 轴旋转。
+* 所需的5张图片分别是 正对，左倾，右倾，上倾，下倾(角度在10°到30°内)。
 
 * 棋盘覆盖的最大面积，必须超过相机预览图像的 50%。
 
@@ -48,35 +71,20 @@ MYNT EYE D 标定说明
 --------
 
 .. image:: ../images/calibration002.png
-   :width: 60%
+   :width: 80%
 
 校准结果
 -------
 
 .. image:: ../images/calibration003.png
-   :width: 60%
-
-eSPCalibrator 的参数
--------
-
-.. image:: ../images/calibration004.png
-   :width: 60%
-
-1. 打开 eDepthK.prj 文件
-2. 注意'Col1''Row1''Size1'必须与棋盘相匹配
-
-11x7交叉棋盘示例
--------
-
-.. image:: ../images/calibration005.png
-   :width: 60%
+   :width: 80%
 
 
 日志文件
 -------
 
 .. image:: ../images/calibration006.png
-   :width: 60%
+   :width: 80%
 
 附录
 -------
@@ -118,18 +126,6 @@ Cannot Preview Resolution                 1. FW issue, check page.14 2. eDepthK.
 Write ZD Table Fail                       1. FW issue, check page.14
 ========================================  ==================================================================
 
-FW 版本校验
--------
-
-下面版本的 FW已验证过. 其它未验证的版本不保证能正常使用。
-
-1. EX8031-B01-B0135P-BL60U-011-EnDepthPostProcess(U3 HD,VGA)
-2. EX8036-B01-B0135P-BL60U-011-EnDepthPostProcess(U3 HD,VGA)
-3. EX8037-B01-A9714M-BL40U-005-EnDepthPostProcess(U2 HD,VGA)
-4. EX8038-B01-B0144M-BL60U-002(U3 HD)
-5. Vivian-B01-B0135P-BL60U-006(U3 color 1920x960, calibrationcolor 1440x720 depth 580x580)
-
-因为 Yoffset的传感器互换，所以无法正常工作
 
 
 
