@@ -21,7 +21,7 @@ Windows 预编译 exe 安装
 生成样例工程
 ------------
 
-首先，安装好 `Visual Studio 2017 <https://visualstudio.microsoft.com/zh-hans/vs/older-downloads/>`__ 和`CMake <https://cmake.org/>`__ 。
+首先，安装好 `Visual Studio 2017 <https://visualstudio.microsoft.com/zh-hans/vs/older-downloads/>`__ 和 `CMake <https://cmake.org/>`__ 。
 接着，进入 “\samples`” 目录， 双击 “generate.bat” 即可生成样例工程 ``_build\mynteye_samples.sln`` 。
 
 .. tip::
