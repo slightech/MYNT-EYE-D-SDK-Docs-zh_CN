@@ -1,14 +1,15 @@
-.. role:: raw-latex(raw)
-   :format: latex
-..
-
 .. _analyze_imu:
 
 分析 IMU 数据
 ===========
 
-SDK 提供了 IMU 数据分析工具 imu_analytics.py. 工具的详细信息见
-tools/README.md
+SDK 提供了 IMU 数据分析工具 imu_analytics.py. 工具的详细信息见 tools/README.md
+
+.. note::
+
+  需要使用 ``tools`` 中提供的 ``record`` 工具或 ``rosbag`` 录制数据集。
+  分析工具支持python 2.7 。
+  运行工具之前需要 ``pip install -r requirements.txt`` 。
 
 Linux 系统运行命令:
 

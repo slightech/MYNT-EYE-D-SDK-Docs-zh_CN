@@ -167,6 +167,17 @@ OpenCV 如何编译安装，请见官方文档 `Installation in Linux <https://d
 
    ./samples/_output/bin/get_all_with_options
 
+10) get_depth_with_filter 显示滤波后的深度图像
+
+.. code-block:: bash
+
+  ./samples/_output/bin/get_depth_with_filter
+
+11) get_points_with_filter 显示滤波后的点云图像
+
+.. code-block:: bash
+
+  ./samples/_output/bin/get_points_with_filter
 
 4 安装带有 OpenCV 的 ROS
 ------------------------

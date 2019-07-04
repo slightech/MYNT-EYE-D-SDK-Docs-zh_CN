@@ -11,7 +11,7 @@ Windows SDK 用户指南
 1.1 安装 Visual Studio
 ~~~~~~~~~~~~~~~~~~~~~~
 
-从 https://visualstudio.microsoft.com/ 下载并安装。选择c++桌面开发，下载
+从 https://visualstudio.microsoft.com/zh-hans/vs/older-downloads/ 下载并安装。选择c++桌面开发，下载
 
 .. image:: ../static/images/vs_install.png
 
@@ -30,13 +30,13 @@ Windows SDK 用户指南
 
 1) 从 http://mirrors.ustc.edu.cn/msys2/distrib/x86_64/ 下载并安装
 
-2) 将 bin 目录的路径添加到系统变量的 PATH 变量列表中（`如何添加系统变量 <https://jingyan.baidu.com/article/47a29f24610740c0142399ea.html>`__)
+2) 将 bin 目录的路径添加到系统变量的 PATH 变量列表中 ( `如何添加系统变量 <https://jingyan.baidu.com/article/47a29f24610740c0142399ea.html>`__ )
 
 .. code-block:: bat
 
    C:\msys64\usr\bin
 
-3) 安装 make
+3) 安装 make ,双击 msys2.exe ,输入下面的命令:
 
 .. code-block:: bat
 
@@ -209,10 +209,22 @@ Windows SDK 用户指南
 
    .\samples\_output\bin\get_all_with_options
 
+10) get_depth_with_filter 显示滤波后的深度图像
+
+.. code-block:: bat
+
+  .\samples\_output\bin\get_depth_with_filter
+
+11) get_points_with_filter 显示滤波后的点云图像
+
+.. code-block:: bat
+
+  .\samples\_output\bin\get_points_with_filter
+
 5. 清理
 -------
 
 .. code-block:: bat
 
-   cd <sdk>   <sdk>为SDK所在路径
+   cd <sdk>   #<sdk>为SDK所在路径
    make cleanall

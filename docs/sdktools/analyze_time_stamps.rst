@@ -1,14 +1,16 @@
-.. role:: raw-latex(raw)
-   :format: latex
-..
-
 .. _analyze_time_stamps:
 
 分析时间戳
 ==========
 
-SDK 提供了时间戳分析工具 stamp_analytics.py. 工具的详细信息见
-tools/README.
+SDK 提供了时间戳分析工具 stamp_analytics.py , 工具的详细信息见
+tools/README.md
+
+.. note::
+
+  需要使用 ``tools`` 中提供的 ``record`` 工具或 ``rosbag`` 录制数据集。
+  分析工具支持python 2.7 。
+  运行工具之前需要 ``pip install -r requirements.txt`` 。
 
 Linux 系统运行命令:
 
