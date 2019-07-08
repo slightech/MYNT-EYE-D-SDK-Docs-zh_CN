@@ -81,7 +81,7 @@ eSPCalibrator 的参数
 .. image:: ../images/calibration003.png
    :width: 80%
 
-* 标定结束后命令行出打印出左右目的 ``Reprojection error(重投影误差)`` ，标定结果，要求重投影误差最好能达到0.2或更低。如果超过0.5，需要重新标定。
+* 标定结束后日志文件 ``StereoSetting.txt`` 会保存左右目的 ``Reprojection error(重投影误差)`` ，标定结果，要求重投影误差最好能达到0.2或更低。如果超过0.5，需要重新标定。
 
 日志文件
 -------
