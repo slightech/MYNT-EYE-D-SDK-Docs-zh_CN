@@ -6,7 +6,7 @@
 获取协处理芯片固件
 -----------------
 
-最新固件： mynteye-d-hid-firmware-1.2.bin `Google
+最新固件： mynteye-d-hid-firmware-1.3.bin `Google
 Drive <https://drive.google.com/open?id=1gAbTf6W10a8iwT7L9TceMVgxQCWKnEsx>`__,
 `百度网盘 <https://pan.baidu.com/s/1sZKxugg5P8Dk5QgneA9ttw>`__
 
