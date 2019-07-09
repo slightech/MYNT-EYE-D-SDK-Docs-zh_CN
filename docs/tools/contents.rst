@@ -1,13 +1,8 @@
-MYNT® EYE SDK 工具
-==================
+.. _tools:
+
+使用工具支持
+========
 
 .. toctree::
-   :maxdepth: 2
-
-   analyze_imu
-   analyze_time_stamps
-   record_data
-   save_all_infos
-   write_imu_params
-   update_hid_firmware
-   update_camera_firmware
+	
+   calibration_tool

@@ -1,4 +1,4 @@
-MYNT® EYE 产品说明
+产品
 ==================
 
 .. toctree::
@@ -6,8 +6,7 @@ MYNT® EYE 产品说明
 
    product_description
    product_surface
-   params_d1000_120
-   params_d1000_50
+   specification
    support_resolutions
    imu_coord
    assembly
