@@ -7,7 +7,7 @@ MYNT EYE D 标定说明
 获取标定工具
 ------------
 
-Latest tool:  D1000-eSPCalibrator1.3.10_Release for SICILI.zip `Google
+Latest tool:  mynteye-d-calibrator_1.0.zip `Google
 Drive <https://drive.google.com/open?id=13QsqgkzNfh4yKDisYgHXtshzFyqRzbDs>`__,
 `Baidu Pan <https://pan.baidu.com/s/11gbg_KkzaezNa52YfdMjJw>`__
 
@@ -17,7 +17,7 @@ Drive <https://drive.google.com/open?id=13QsqgkzNfh4yKDisYgHXtshzFyqRzbDs>`__,
 
 * 深度版50°相机的配置文件存在于D1000-50文件夹, 深度版120°相机的配置文件存在于D1000-120文件夹。
 * HD表示720P, VGA表示480P， 因为深度相机有2种分辨率，所以需要2次标定。
-* 开始标定前把 HD或VGA 文件夹中的 ``eDepthK.prj`` 复制并替换到 ``D1000-eSPCalibrator1.3.10_Release for SICILI`` 文件夹下。
+* 开始标定前把 HD或VGA 文件夹中的 ``eDepthK.prj`` 复制并替换到 ``mynteye-d-calibrator_1.0`` 文件夹下。
 * 用记事本打开 ``eDepthK.prj`` 文件并找到 ``[Chess_Para]`` 部分，其中：将Col1/2/3/4 修改为标定板棋盘格的横向黑白交叉点数， Row1/2/3/4 修改为标定板棋盘格的纵向黑白交叉点数, Size1/2/3/4 修改为棋盘格格子边长，单位mm。
 
 11x7交叉棋盘示例
@@ -48,7 +48,7 @@ eSPCalibrator 的参数
 操作指南
 --------
 
-1.双击打开 eSPCalibrator.exe文件
+1.双击打开 mynteye-d-calibrator.exe文件
 2.按下 “c”或者 “C”来拍摄快照（总共1帧）
 
 .. image:: ../images/calibration001.png
