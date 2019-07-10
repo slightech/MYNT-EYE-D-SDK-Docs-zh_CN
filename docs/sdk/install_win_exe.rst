@@ -23,12 +23,8 @@ Windows EXE 安装
 ------------
 
 首先，安装好 `Visual Studio 2017 <https://visualstudio.microsoft.com/zh-hans/vs/older-downloads/>`__ 和 `CMake <https://cmake.org/>`__ 。
-<<<<<<< HEAD:docs/installation/install_exe_win.rst
-接着，进入 “\samples`” 目录， 双击 “generate.bat” 即可生成样例工程 ``_build\mynteye_samples.sln`` 。
-=======
-
 接着，进入 ``\samples`` 目录， 双击 ``generate.bat`` 即可生成样例工程 ``_build\mynteye_samples.sln`` 。
->>>>>>> feature/docs:docs/sdk/install_exe_win.rst
+
 
 .. tip::
 
