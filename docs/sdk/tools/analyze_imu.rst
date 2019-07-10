@@ -42,7 +42,7 @@ Linux 系统上的结果参考:
 
 分析结果图保存在 dataset 目录中. 如下:
 
-.. figure:: ../static/images/imu_analytics.png
+.. figure:: ../../static/images/sdk/tools/imu_analytics.png
    :alt: imu analytics
 
 

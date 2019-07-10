@@ -9,7 +9,7 @@
 165x31.5x29.6 149x24
 ============= ==========
 
-.. image:: ../static/images/mynteye_surface.jpg
+.. image:: ../static/images/product/mynteye_surface.jpg
 
 A. 摄像头：摄像头传感器镜头，在使用中请注意保护，以避免成像质量下降。
 

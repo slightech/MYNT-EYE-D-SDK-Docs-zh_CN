@@ -55,7 +55,7 @@ Linux 系统上的结果参考:
 
 分析结果图保存在 dataset 目录中. 如下:
 
-.. figure:: ../static/images/stamp_analytics.png
+.. figure:: ../../static/images/sdk/tools/stamp_analytics.png
    :alt: stamp analytics
 
 

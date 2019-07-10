@@ -29,7 +29,7 @@
 通过设置 ``params.framerate`` 参数，就可以设定图像的帧率。
 
 .. note::
-   图像帧率有效值(0-60),分辨率在2560X720时帧率有效值为(30),可以参考 :ref:`support_resolutions`
+   图像帧率有效值(0-60),分辨率在2560X720时帧率有效值为(30),可以参考 :ref:`product_support_resolutions`
 
 参考代码片段:
 
@@ -105,10 +105,10 @@
 
   启用此功能后，你可以看到ir光斑:
 
-  .. image:: ../static/images/ir.png
+  .. image:: ../../static/images/sdk/samples/ir.png
 
-启用IR Depth Only
------------------
+启用 IR Depth Only
+------------------
 
 通过设置 ``params.ir_depth_only`` 参数，就可以设定IR Depth
 Only功能。默认关闭。开启此功能后，IR只作用于深度图像，在图像上不会出现IR光的纹路。

@@ -3,7 +3,7 @@
 Windows 源码安装
 ====================
 
-以下源码编译安装过程。如果只需使用预编译好的库，请参考 :ref:`install_exe_win`。
+以下源码编译安装过程。如果只需使用预编译好的库，请参考 :ref:`sdk_install_win_exe`。
 
 1. 安装编译工具
 ---------------
@@ -13,7 +13,7 @@ Windows 源码安装
 
 从 https://visualstudio.microsoft.com/zh-hans/vs/older-downloads/ 下载并安装。选择c++桌面开发，下载
 
-.. image:: ../static/images/vs_install.png
+.. image:: ../static/images/sdk/vs_install.png
 
 .. tip::
 
@@ -128,12 +128,12 @@ Windows 源码安装
 
    Visual Studio Command Prompt 可以从开始菜单打开，
 
-  .. image:: ../static/images/vs_cmd_menu.png
+  .. image:: ../static/images/sdk/vs_cmd_menu.png
     :width: 30%
 
   也可以从 Visual Studio 的工具菜单里打开，
 
-  .. image:: ../static/images/vs_cmd.png
+  .. image:: ../static/images/sdk/vs_cmd.png
     :width: 40%
 
   但如 Visual Studio 2015 工具菜单里可能没有，可以自己添加个。

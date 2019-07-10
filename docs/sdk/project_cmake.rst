@@ -106,7 +106,7 @@ CMake 如何使用 SDK
 Windows
 ~~~~~~~
 
-可以参考 :ref:`build_win`, 安装编译工具。
+可以参考 :ref:`sdk_install_win_src`, 安装编译工具。
 
 然后打开 “x64 Native Tools Command Prompt for VS 2017”
 命令行来编译和运行，

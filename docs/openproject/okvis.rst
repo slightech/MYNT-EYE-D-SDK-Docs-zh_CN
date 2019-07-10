@@ -6,7 +6,7 @@
 在 MYNT® EYE 上运行 OKVIS ，请依照这些步骤：
 ----------------------------------------------
 
-1. 下载 `MYNT-EYE-D-SDK <https://github.com/slightech/MYNT-EYE-D-SDK.git>`_ 并 :ref:`ros_install`。
+1. 下载 `MYNT-EYE-D-SDK <https://github.com/slightech/MYNT-EYE-D-SDK.git>`_ 并 :ref:`sdk_install_ros`。
 2. 安装依赖，按照原始 OKVIS 步骤安装 MYNT-EYE-OKVIS-Sample 。
 3. 更新相机参数到 ``<OKVIS>/config/config_mynteye_d.yaml`` 。
 4. 在 MYNT® EYE 上运行 OKVIS 。

@@ -7,7 +7,7 @@
 在 MYNT® EYE 上运行 VIORB ，请依照这些步骤：
 ------------------------------------------------
 
-1. 下载 `MYNT-EYE-D-SDK <https://github.com/slightech/MYNT-EYE-D-SDK.git>`_ 及 :ref:`ros_install`。
+1. 下载 `MYNT-EYE-D-SDK <https://github.com/slightech/MYNT-EYE-D-SDK.git>`_ 及 :ref:`sdk_install_ros`。
 2. 按照一般步骤安装 VIORB 。
 3. 更新相机参数到 ``<VIO>/config/mynteye_d.yaml``。
 4. 运行 mynteye_wrapper_d 和 VIORB 。

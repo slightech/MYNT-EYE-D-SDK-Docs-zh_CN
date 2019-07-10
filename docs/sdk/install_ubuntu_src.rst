@@ -184,7 +184,7 @@ OpenCV 如何编译安装，请见官方文档 `Installation in Linux <https://d
 
 如果您不使用 ROS(The Robot Operation System), 您可以跳过此部分。
 
-ROS安装与运行步骤，参考 :ref:`ros_install` 以及 :ref:`ros_usage` 。
+ROS安装与运行步骤，参考 :ref:`sdk_install_ros` 以及 :ref:`sdk_install_ros_usage` 。
 
 
 5. 打包

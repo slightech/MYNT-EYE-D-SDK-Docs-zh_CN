@@ -7,7 +7,7 @@
 在 MYNT® EYE 上运行 VINS-Mono，请依照这些步骤：
 ------------------------------------------------
 
-1. 下载 `MYNT-EYE-D-SDK <https://github.com/slightech/MYNT-EYE-D-SDK.git>`_ 及 :ref:`ros_install`。
+1. 下载 `MYNT-EYE-D-SDK <https://github.com/slightech/MYNT-EYE-D-SDK.git>`_ 及 :ref:`sdk_install_ros`。
 2. 按照步骤安装 VINS-Mono 。
 3. 运行 mynteye_wrapper_d 和 VINS-Mono 。
 
