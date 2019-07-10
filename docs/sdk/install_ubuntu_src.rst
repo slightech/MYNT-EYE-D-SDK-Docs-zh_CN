@@ -194,7 +194,7 @@ ROS安装与运行步骤，参考 :ref:`sdk_install_ros` 以及 :ref:`sdk_instal
 
 .. code-block:: bash
 
-   cd <sdk>
+   cd <sdk>  # <sdk>为SDK所在路径
    make cleanall
    export OpenCV_DIR=<install prefix>
 
@@ -205,7 +205,7 @@ Packaging:
 
 .. code-block:: bash
 
-   cd <sdk>  #<sdk>为SDK所在路径
+   cd <sdk>  # <sdk>为SDK所在路径
    make pkg
 
 6. 清理
@@ -213,6 +213,6 @@ Packaging:
 
 .. code-block:: bash
 
-   cd <sdk>  #<sdk>为SDK所在路径
+   cd <sdk>  # <sdk>为SDK所在路径
    make cleanall
    make uninstall

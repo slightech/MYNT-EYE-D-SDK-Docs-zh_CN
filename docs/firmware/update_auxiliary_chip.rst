@@ -15,7 +15,7 @@ Drive <https://drive.google.com/open?id=1gAbTf6W10a8iwT7L9TceMVgxQCWKnEsx>`__,
 
 .. code-block:: bash
 
-   cd <sdk>  #<sdk>为sdk所在路径
+   cd <sdk>  # <sdk>为SDK所在路径
    make tools
 
 升级固件

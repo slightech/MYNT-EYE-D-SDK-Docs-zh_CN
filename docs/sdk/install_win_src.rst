@@ -226,5 +226,5 @@ Windows 源码安装
 
 .. code-block:: bat
 
-   cd <sdk>   #<sdk>为SDK所在路径
+   cd <sdk>  # <sdk>为SDK所在路径
    make cleanall
