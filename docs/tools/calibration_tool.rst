@@ -23,13 +23,13 @@ Drive <https://drive.google.com/open?id=13QsqgkzNfh4yKDisYgHXtshzFyqRzbDs>`__,
 11x7交叉棋盘示例
 -------
 
-.. image:: ../images/calibration005.png
+.. image:: ../static/images/tools/calibration005.png
    :width: 80%
 
 eSPCalibrator 的参数
 -------
 
-.. image:: ../images/calibration004.png
+.. image:: ../static/images/tools/calibration004.png
    :width: 80%
 
 1. 打开 eDepthK.prj 文件
@@ -51,7 +51,7 @@ eSPCalibrator 的参数
 1.双击打开 mynteye-d-calibrator.exe文件
 2.按下 “c”或者 “C”来拍摄快照（总共1帧）
 
-.. image:: ../images/calibration001.png
+.. image:: ../static/images/tools/calibration001.png
    :width: 60%
 
 
@@ -70,7 +70,7 @@ eSPCalibrator 的参数
 操作指南
 --------
 
-.. image:: ../images/calibration002.png
+.. image:: ../static/images/tools/calibration002.png
    :width: 80%
 
 校准结果
@@ -78,7 +78,7 @@ eSPCalibrator 的参数
 
 * 标定完后标定参数会自动写入相机。
 
-.. image:: ../images/calibration003.png
+.. image:: ../static/images/tools/calibration003.png
    :width: 80%
 
 * 标定结束后日志文件 ``StereoSetting.txt`` 会保存左右目的 ``Reprojection error(重投影误差)`` ，标定结果，要求重投影误差最好能达到0.2或更低。如果超过0.5，需要重新标定。
@@ -88,7 +88,7 @@ eSPCalibrator 的参数
 
 * 标定后日志文件会保存到 ``Log_Folder`` 。
 
-.. image:: ../images/calibration006.png
+.. image:: ../static/images/tools/calibration006.png
    :width: 80%
 
 附录

@@ -24,9 +24,9 @@ copyright = '2019, MYNTAI'
 author = 'MYNTAI'
 
 # The short X.Y version
-version = '1.7.8'
+version = '1.7.9'
 # The full version, including alpha/beta/rc tags
-release = '1.7.8'
+release = '1.7.9'
 
 
 # -- General configuration ---------------------------------------------------
