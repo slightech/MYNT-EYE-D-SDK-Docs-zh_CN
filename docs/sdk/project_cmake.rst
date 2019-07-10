@@ -1,8 +1,8 @@
+.. _project_cmake:
+
 .. role:: raw-latex(raw)
    :format: latex
 ..
-
-.. _cmake:
 
 CMake 如何使用 SDK
 ==================

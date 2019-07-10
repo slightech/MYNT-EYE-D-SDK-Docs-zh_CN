@@ -1,6 +1,6 @@
-.. _install_exe_win:
+.. _sdk_install_win_exe:
 
-Windows 预编译 exe 安装
+Windows EXE 安装
 =======================
 
    下载地址： mynteye-d-x.x.x-win-x64-opencv-3.4.3.exe `Google

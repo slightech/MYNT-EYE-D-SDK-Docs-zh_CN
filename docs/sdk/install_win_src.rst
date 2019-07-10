@@ -1,6 +1,6 @@
-.. _build_win:
+.. _sdk_install_win_src:
 
-Windows SDK 用户指南
+Windows 源码安装
 ====================
 
 以下源码编译安装过程。如果只需使用预编译好的库，请参考 :ref:`install_exe_win`。
@@ -85,7 +85,7 @@ Windows SDK 用户指南
 
    D:\OpenCV\Build\x64\vc14\lib     (Visual Studio 2015 使用该路径)
    D:\OpenCV\Build\x64\vc15\lib     (Visual Studio 2017 使用该路径)
-  
+
 
 2.将 OpenCV bin 路径添加到系统环境变量的 PATH 变量列表中
 

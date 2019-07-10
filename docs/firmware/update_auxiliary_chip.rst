@@ -1,10 +1,10 @@
-.. _update_hid_firmware:
+.. _fw_update_auxiliary_chip:
 
-升级协处理芯片
-=================
+升级协处理芯片固件
+======================
 
 获取协处理芯片固件
------------------
+----------------------
 
 最新固件： mynteye-d-hid-firmware-1.3.bin `Google
 Drive <https://drive.google.com/open?id=1gAbTf6W10a8iwT7L9TceMVgxQCWKnEsx>`__,

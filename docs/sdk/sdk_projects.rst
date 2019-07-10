@@ -4,6 +4,6 @@
 .. toctree::
    :maxdepth: 2
 
-   cmake
-   vs2017
-   qtcreator
+   project_cmake
+   project_vs2017
+   project_qtcreator

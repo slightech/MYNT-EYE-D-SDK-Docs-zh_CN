@@ -1,6 +1,6 @@
-.. _build_linux:
+.. _sdk_install_ubuntu_src:
 
-Linux SDK 用户指南
+Ubuntu 源码安装
 ==================
 
 1. 安装 SDK 依赖

@@ -1,9 +1,9 @@
-.. _ros_install:
+.. _sdk_install_ros:
 
-ROS 安装
-========
+ROS Wrapper 安装
+================
 
-1.1 安装 ROS 
+1.1 安装 ROS
 ----------------------
 
 ROS Melodic (Ubuntu 18.04)

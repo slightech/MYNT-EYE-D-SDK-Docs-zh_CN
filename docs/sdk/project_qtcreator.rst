@@ -1,4 +1,4 @@
-.. _qtcreator:
+.. _project_qtcreator:
 
 Qt Creator 如何使用 SDK
 =======================

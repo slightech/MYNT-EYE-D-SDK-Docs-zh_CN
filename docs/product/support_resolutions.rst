@@ -1,4 +1,4 @@
-.. _support_resolutions:
+.. _product_support_resolutions:
 
 分辨率支持列表
 ==================

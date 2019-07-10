@@ -1,9 +1,9 @@
-.. _ros_usage:
+.. _sdk_install_ros_usage:
 
-ROS 如何使用
-============
+ROS Wrapper 说明
+================
 
-按照 :ref:`ros_install`，编译再运行节点。
+按照 :ref:`sdk_install_ros`，编译再运行节点。
 
 ``rostopic list`` 可以列出发布的节点：
 

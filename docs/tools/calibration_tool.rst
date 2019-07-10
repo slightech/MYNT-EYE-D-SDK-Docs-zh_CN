@@ -1,7 +1,7 @@
 .. _calibration_tool:
 
-MYNT EYE D 标定说明
-==========
+标定工具的使用
+===============
 
 
 获取标定工具
@@ -102,7 +102,7 @@ Error Message                             Possible root cause
 ========================================  ==================================================================
 Yoffset Not support format.               1. FW issue, check page.14 2. eDepthK.prj setting error
 No Device                                 1. USB unstable
-Yoffset Cannot Preview Resolution         1. FW issue, check page.14 2. eDepthK.prj setting error                              
+Yoffset Cannot Preview Resolution         1. FW issue, check page.14 2. eDepthK.prj setting error
 ========================================  ==================================================================
 
 错误信息 : Calibration

@@ -4,9 +4,7 @@
 .. toctree::
 
    vins
-   orb_slam2
-   okvis
-   viorb
    vins_fusion
-
-   
+   orb_slam2
+   viorb
+   okvis
