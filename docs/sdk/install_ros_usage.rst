@@ -9,22 +9,15 @@ ROS Wrapper 说明
 
 .. code-block:: bash
 
-   /mynteye/depth/camera_info
-   /mynteye/depth/image_raw
-   /mynteye/depth/image_raw/compressed
-   /mynteye/depth/image_raw/compressed/parameter_descriptions
-   /mynteye/depth/image_raw/compressed/parameter_updates
-   /mynteye/depth/image_raw/compressedDepth
-   /mynteye/depth/image_raw/compressedDepth/parameter_descriptions
-   /mynteye/depth/image_raw/compressedDepth/parameter_updates
-   /mynteye/depth/image_raw/theora
-   /mynteye/depth/image_raw/theora/parameter_descriptions
-   /mynteye/depth/image_raw/theora/parameter_updates
-   /mynteye/imu/data_raw
-   /mynteye/imu/data_raw_processed
-   /mynteye/left/camera_info
-   /mynteye/left/image_color
-   /mynteye/left/image_color/compressed
+   /mynteye/depth/image_raw     # 深度数据
+   /mynteye/imu/data_raw        # imu数据
+   /mynteye/imu/data_raw_processed     # 经过处理后的imu数据
+   /mynteye/left/image_mono     # 左目黑白图像
+   /mynteye/left/image_color    # 左目彩色图像
+   /mynteye/right/image_mono    # 右目黑白图像
+   /mynteye/right/image_color   # 右目彩色图像
+   /mynteye/points/data_raw     # 点云数据
+   /mynteye/temp/data_raw       # imu温度数据
    ...
 
 ``rostopic hz <topic>`` 可以检查是否有数据：
