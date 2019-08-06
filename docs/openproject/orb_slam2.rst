@@ -26,6 +26,15 @@
     cmake --build .
     sudo make install
 
+下载 ORB_SLAM2
+---------------------
+
+.. code-block::
+
+  git clone  https://github.com/slightech/MYNT-EYE-ORB-SLAM2-Sample.git
+  cd MYNT-EYE-ORB-SLAM2-Sample
+
+
 ROS 下创建单目和双目节点
 ------------------------
 
@@ -33,7 +42,7 @@ ROS 下创建单目和双目节点
 
 .. code-block:: bash
 
-  export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:PATH/ORB_SLAM2/Examples/ROS
+  export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:~/catkin_ws/src/MYNT-EYE-ORB-SLAM2-Sample
 
 * 运行脚本 `build_ros.sh` ：
 
