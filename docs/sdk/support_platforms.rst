@@ -10,9 +10,9 @@ SDK是基于CMake构建的，用以Linux，Windows等多个平台。SDK提供两
 ::
 
    * Windows 10
-   * Ubuntu 18.04.1/16.04.6
+   * Ubuntu 18.04/16.04
    * Jetson TX1 TX2 Xavier
-   * RK3399
+   * RK3399 firefly `测试固件(提取码: y6qs) <https://pan.baidu.com/s/1wksbLwr1mHrwaAHBLKuYqQ>`_
 
 .. tip::
 

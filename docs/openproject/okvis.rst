@@ -11,6 +11,11 @@
 3. 更新相机参数到 ``<OKVIS>/config/config_mynteye_d.yaml`` 。
 4. 在 MYNT® EYE 上运行 OKVIS 。
 
+.. tip::
+
+  OKVIS暂不支持arm平台。
+
+
 安装 MYNT® EYE OKVIS
 ---------------------
 
