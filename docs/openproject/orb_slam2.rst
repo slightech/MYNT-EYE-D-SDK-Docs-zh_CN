@@ -16,7 +16,7 @@
 
 .. code-block:: bash
 
-    sudo apt-get -y install libglew-dev cmake
+    sudo apt-get -y install libglew-dev cmake libgoogle-glog-dev
     cd ~
     git clone https://github.com/stevenlovegrove/Pangolin.git
     cd Pangolin
@@ -38,7 +38,7 @@
 ROS 下创建单目和双目节点
 ------------------------
 
-* 添加 ``Examples/ROS/ORB_SLAM2`` 路径到环境变量 ``ROS_PACKAGE_PATH`` 。打开 ``.bashrc`` 文件，在最后添加下面命令行。 ``PATH`` 为当前 ``ORB_SLAM2`` 存放路径:
+* 添加 ``Examples/ROS/ORB_SLAM2`` 路径到环境变量 ``ROS_PACKAGE_PATH`` 。打开 ``.bashrc`` 文件，在最后添加下面命令行:
 
 .. code-block:: bash
 
