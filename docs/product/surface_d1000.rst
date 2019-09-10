@@ -9,7 +9,7 @@ D1000 尺寸与结构
 165x31.5x29.6 149x24
 ============= ==========
 
-.. image:: ../static/images/product/mynteye_surface.jpg
+.. image:: ../static/images/product/mynteye_surface_d1000.jpg
 
 A. 摄像头：摄像头传感器镜头，在使用中请注意保护，以避免成像质量下降。
 B. 红外结构光发射器及开孔：通过红外结构光可有效解决白墙等无纹理表面的视觉计算。(非 IR 版，此孔保留，但内部无结构光发射装置)
