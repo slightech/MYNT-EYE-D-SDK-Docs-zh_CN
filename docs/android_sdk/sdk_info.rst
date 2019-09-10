@@ -1,7 +1,7 @@
 SDK 说明
 ==================
 
-.. toctree::
-   :maxdepth: 2
+支持平台
+--------
 
-   support_plat
+Android 5.x ~ Android 8.x
