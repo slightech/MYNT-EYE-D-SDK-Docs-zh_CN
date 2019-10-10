@@ -39,6 +39,7 @@ ROS Kinetic (Ubuntu 16.04)
 
 .. code-block:: bash
 
+   make init
    make ros
 
 **Core:**
