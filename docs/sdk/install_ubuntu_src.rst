@@ -61,11 +61,15 @@ OpenCV 如何编译安装，请见官方文档 `Installation in Linux <https://d
 
     如果需要安装ros，可以跳过这一步骤，直接使用ros中自带的pcl。
 
+.. note::
+
+   源码编译pcl需要安装依赖Eigen,Boost,FLANN,VTK。
+
 .. code-block:: bash
 
   git clone https://github.com/PointCloudLibrary/pcl.git
   cd pcl
-  git checkout pcl-1.7.2
+  git checkout pcl-1.8.0
   mkdir build && cd build
 
   cmake -DCMAKE_BUILD_TYPE=Release ..
