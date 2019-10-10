@@ -69,7 +69,7 @@ OpenCV 如何编译安装，请见官方文档 `Installation in Linux <https://d
 
   git clone https://github.com/PointCloudLibrary/pcl.git
   cd pcl
-  git checkout pcl-1.8.0
+  git checkout pcl-1.7.2
   mkdir build && cd build
 
   cmake -DCMAKE_BUILD_TYPE=Release ..
