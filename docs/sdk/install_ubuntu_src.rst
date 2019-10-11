@@ -67,6 +67,7 @@ OpenCV 如何编译安装，请见官方文档 `Installation in Linux <https://d
 
 .. code-block:: bash
 
+  sudo apt install -y libboost-all-dev libflann-dev libeigen3-dev libusb-1.0-0-dev libvtk6-dev libproj-dev
   git clone https://github.com/PointCloudLibrary/pcl.git
   cd pcl
   git checkout pcl-1.7.2
