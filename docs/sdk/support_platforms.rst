@@ -11,6 +11,7 @@ SDK是基于CMake构建的，用以Linux，Windows等多个平台。SDK提供两
 * Ubuntu 18.04/16.04
 * Jetson TX1 TX2 Xavier
 * firefly RK3399 `固件(提取码: y6qs) <https://pan.baidu.com/s/1wksbLwr1mHrwaAHBLKuYqQ>`__
+* 树莓派3B
 
 .. tip::
 

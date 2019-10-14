@@ -6,7 +6,7 @@
 获取协处理芯片固件
 ----------------------
 
-最新固件： MYNTEYE-D-auxiliary-chip-1.4.2.bin `Google
+最新固件： MYNTEYE-D1000-auxiliary-chip-x.x.x.bin `Google
 Drive <https://drive.google.com/open?id=1gAbTf6W10a8iwT7L9TceMVgxQCWKnEsx>`__,
 `百度网盘 <https://pan.baidu.com/s/1sZKxugg5P8Dk5QgneA9ttw>`__
 
