@@ -8,7 +8,7 @@
 
    mUSBMonitor = USBMonitor(mContext, object : USBMonitor.IUSBMonitorListener {
 
-       override fun didFoundCamera(camera: MYNTCamera) {
+       override fun didAttach(camera: MYNTCamera) {
            // 设备插入
        }
 

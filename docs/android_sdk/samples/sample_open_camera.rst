@@ -57,5 +57,5 @@
            }
        }
        // 开始预览
-       mCamera?.start(MYNTCamera.Source.ALL)
+       mCamera?.start(MYNTCamera.Source.ALL, MYNTCamera.Frame.ALL)
    }

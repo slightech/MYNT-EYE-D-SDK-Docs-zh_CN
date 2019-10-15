@@ -141,8 +141,6 @@ MYNTCamera
 设置预览分辨率 （480 / 720）
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   [D-1000 720有异常]
-
 .. code:: java
 
    public void setPreviewSize(int height)
@@ -309,7 +307,7 @@ MYNTCamera
 
    public void setEnableFrameFPS(boolean enable, int camera_switch)
 
-保存点云
+保存指定距离内的点云
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: java
@@ -317,4 +315,5 @@ MYNTCamera
    public void savePointCloud(final FrameData colorFrameData,
                               final FrameData depthFrameData,
                               final String filePath,
-                              Boolean hasColor)
+                              Boolean hasColor,
+                              int distance)
