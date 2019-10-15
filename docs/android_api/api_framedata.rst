@@ -19,7 +19,7 @@ FrameData
 
 .. code:: java
 
-    public int frameId = 0;
+    public int frameId;
 
 
 图像宽度

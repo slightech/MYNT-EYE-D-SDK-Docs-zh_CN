@@ -11,4 +11,5 @@ SDK 安装
        implementation fileTree(include: ['*.aar'], dir: 'libs')
        ....
    }
+   
 5. Build --> Make Project
