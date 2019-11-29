@@ -192,28 +192,7 @@ OpenCV 如何编译安装，请见官方文档 `Installation in Linux <https://d
 ROS安装与运行步骤，参考 :ref:`sdk_install_ros` 以及 :ref:`sdk_install_ros_usage` 。
 
 
-5. 打包
--------
-
-如果打包指定版本OpenCV的包：
-
-.. code-block:: bash
-
-   cd <sdk>  # <sdk>为SDK所在路径
-   make cleanall
-   export OpenCV_DIR=<install prefix>
-
-   export OpenCV_DIR=/usr/local
-   export OpenCV_DIR=$HOME/opencv-2.4.13.3
-
-Packaging:
-
-.. code-block:: bash
-
-   cd <sdk>  # <sdk>为SDK所在路径
-   make pkg
-
-6. 清理
+5. 清理
 -------
 
 .. code-block:: bash
