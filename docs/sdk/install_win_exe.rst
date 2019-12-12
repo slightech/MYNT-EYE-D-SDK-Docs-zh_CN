@@ -17,7 +17,6 @@ Windows EXE 安装
   exe安装包仅支持vs 2017。
   如果无法运行样例，请先检查一下系统变量PATH中是否成功添加了 ``<SDK_ROOT_DIR>\bin`` , ``<SDK_ROOT_DIR>\bin\3rdparty`` ,
   ``<SDK_ROOT_DIR>\3rdparty\opencv\build\x64\vc15\bin`` , ``<SDK_ROOT_DIR>\3rdparty\libjpeg-turbo64\bin`` 。
-  点云相关的样例需要使用PCL1.9.0。除1.9.0以外的版本，可以使用样例工程运行。
 
 
 生成样例工程
